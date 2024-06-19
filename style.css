@@ -5,55 +5,67 @@ body {
 }
 
 .section {
-    width: 1440px;
-    height: 1021px;
+    width: 1857px;
+    height: 100vh;
+}
+img {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    margin: 0;
+    padding: 0;
 }
 
 .foto-home {
-    background-image: url(./1.jpeg);
+    width: 100%;
+    gap: 0px;
+    /* background-image: url(./1.jpeg);
     width: 100%;
     height: 1021px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .landing-1 {
-    background-image: url(./2.jpeg);
+    /* background-image: url(./2.jpeg);
     width: 100%;
     height: 1021px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-}
+    background-size: cover;*/
+    gap: 0px;
+} 
 
 .landing-2 {
-    background-image: url(./3.jpeg);
+    /* background-image: url(./3.jpeg);
     width: 100%;
     height: 1021px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
 }
 .landing-3 {
-    background-image: url(./4.jpeg);
+    /* background-image: url(./4.jpeg);
     width: 100%;
     height: 1021px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
 }
 .landing-4 {
-    background-image: url(./5.jpeg);
+    /* background-image: url(./5.jpeg);
     width: 100%;
     height: 1021px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
 }
 
 @media screen and ( max-width: 476px ) {
-    .section {
+    /* .section {
         width: 474px;
         height: 1021px;
     }
@@ -94,4 +106,4 @@ body {
         background-position: top;
         background-size: contain;
     }
-}
+} */
