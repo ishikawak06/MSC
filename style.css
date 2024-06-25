@@ -5,18 +5,34 @@ body {
 }
 
 .section {
-    width: 1857px;
     height: 100vh;
 }
 img {
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 div {
     margin-top: -5px;
     padding: 0 0 0 0;
 }
+.Logo-versi-pc {
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    border-radius: 90%;
+    left: 80%;
+    bottom: 5%; 
+    animation: Bergerak 2s infinite;
+}
+
+.Logo-versi-pc::before {
+    content: '';
+    background-color: rgb(48, 143, 19);
+
+}
+
 
 .foto-home {
     width: 100%;
@@ -98,11 +114,15 @@ div {
 
 @keyframes Bergerak {
     0% {
-        opacity: 0;
+        opacity: 0.2;
     }
     50% {
         transform: scale(1.1);
-        opacity: 0.4;
+        opacity: 1;
+    }
+    100% {
+
+        opacity: 0.2;
     }
 }
 
@@ -140,9 +160,11 @@ div {
 .logo-whatsapp {
     display: none;
 }
-.logo-whatsapp-hp {
+/* #logo-whatsapp-hp {
     position: fixed;
-    left: 80%;
-    bottom: 10%; 
+    left: 30%;
+    bottom: 40%; 
     animation: Bergerak 1s infinite;
-}
+    width: 500px;
+    height: 500px;
+} */
